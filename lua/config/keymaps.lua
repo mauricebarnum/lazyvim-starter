@@ -10,6 +10,7 @@ map("i", "<C-e>", "<End>", { desc = "move end of line" })
 map("i", "<C-f>", "<Right>", { desc = "move right" })
 map("i", "<C-n>", "<Down>", { desc = "move down" })
 map("i", "<C-p>", "<Up>", { desc = "move up" })
+map("i", "<C-k>", "<C-o>D", { noremap = true, desc = "Delete to end of line" })
 
 unmap("n", "<C-h>")
 unmap("n", "<C-j>")
@@ -35,5 +36,5 @@ unmap("n", "]b")
 
 unmap({ "i", "x", "n", "s" }, "<C-s>")
 
-unmap("v", "<")
-unmap("v", ">")
+-- unmap("v", "<")
+-- unmap("v", ">")
