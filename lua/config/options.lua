@@ -12,3 +12,4 @@ opt.inccommand = "split"
 opt.number = false
 opt.relativenumber = false
 opt.shiftwidth = 4
+opt.tabstop = 4
