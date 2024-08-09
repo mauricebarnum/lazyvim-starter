@@ -11,4 +11,4 @@ opt.ignorecase = false
 opt.inccommand = "split"
 opt.number = false
 opt.relativenumber = false
--- opt.shiftwidth = 4
+opt.shiftwidth = 4
