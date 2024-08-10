@@ -4,10 +4,14 @@
 local map = vim.keymap.set
 local unmap = vim.keymap.del
 
-map("i", "<C-a>", "<ESC>^i", { desc = "move beginning of line" })
-map("i", "<C-b>", "<Left>", { desc = "move left" })
-map("i", "<C-e>", "<End>", { desc = "move end of line" })
-map("i", "<C-f>", "<Right>", { desc = "move right" })
+map("i", "<C-a>", "<ESC>^i", { noremap = true, desc = "move beginning of line" })
+map("i", "<C-b>", "<Left>", { noremap = true, desc = "move left" })
+map("i", "<C-e>", "<End>", { noremap = true, desc = "move end of line" })
+map("i", "<C-f>", "<Right>", { noremap = true, desc = "move right" })
+map("i", "<F7>", "<CMD><CR>", { desc = "previous error" })
+map("i", "<F8>", "<CMD>cn<CR>", { desc = "next error" })
+map("n", "<F7>", "<CMD><CR>", { desc = "previous error" })
+map("n", "<F8>", "<CMD>cn<CR>", { desc = "next error" })
 -- map("i", "<C-n>", "<Down>", { desc = "move down" })
 -- map("i", "<C-p>", "<Up>", { desc = "move up" })
 -- map("i", "<C-k>", "<C-o>D", { noremap = true, desc = "Delete to end of line" })
@@ -26,7 +30,6 @@ map("i", "<C-f>", "<Right>", { desc = "move right" })
 -- unmap("n", "<A-k>")
 -- unmap("i", "<A-j>")
 -- unmap("i", "<A-k>")
--- unmap("v", "<A-j>")
 -- unmap("v", "<A-k>")
 
 -- unmap("n", "<S-h>")
@@ -38,3 +41,4 @@ map("i", "<C-f>", "<Right>", { desc = "move right" })
 
 -- unmap("v", "<")
 -- unmap("v", ">")
+-- unmap("v", "<A-j>")
