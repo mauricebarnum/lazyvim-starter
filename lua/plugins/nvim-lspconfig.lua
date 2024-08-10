@@ -1,11 +1,17 @@
+if true then
+  return {}
+end
+
 return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
       gopls = {
-        hints = {
-          parameterNames = false,
-          functionTypeParameters = false,
+        settings = {
+          hints = {
+            parameterNames = false,
+            functionTypeParameters = false,
+          },
         },
       },
     },
