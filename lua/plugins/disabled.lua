@@ -7,8 +7,8 @@ return {
     "nvim-lualine/lualine.nvim",
     enabled = false,
   },
-  {
-    "folke/noice.nvim",
-    enabled = true,
-  },
+  --  {
+  --    "folke/noice.nvim",
+  --    enabled = true,
+  -- },
 }
