@@ -9,6 +9,10 @@ return {
   },
   {
     "folke/noice.nvim",
+    enabled = true,
+  },
+  {
+    "folke/flash.nvim",
     enabled = false,
   },
 }
