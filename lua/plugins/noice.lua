@@ -6,5 +6,8 @@ return {
       enabled = true,
       view = "cmdline",
     },
+    messages = {
+      enabled = false,
+    },
   },
 }
